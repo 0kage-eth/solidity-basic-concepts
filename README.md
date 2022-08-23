@@ -1,38 +1,41 @@
-<h1>SOLIDITY CONCEPTS</h1>
+# SOLIDITY BASICS
 
-<h2>PRE-REQUISITES</h2>
+Objective of this project is to list down core concepts of solidity and experiment each concept with an example
 
-<h2>TOPICS</h2>
+## How to use
 
-1. BLOCKCHAIN BASICS - Refer to [blockchain-basics](./scripts/blockchain-basics.js) file
-   Run the script below in command line & read the console logs
+-   Project comes with 2 folder [contracts](/contracts/) and [notes](/notes/)
+-   Go through the Notes in following order
 
-    `node scripts/blockchain-basics.js`
+    -   [BASICS](./notes/BASICS.md)
+        Go through data primitives, memory management, arrays, mappings, error handling etc.
 
-2. DEFI PRIMITIVES - Refer to [data-primitives](./scripts/data-primitives.js)
-   Run the script below in command line & read the console logs
+    -   [CONTRACTS](./notes/CONTRACTS.md)
+        Goes through contracts, functions, modifiers, lower level functions such as `call`, `transfer`, `send`, `fallback`, `receive`
 
-    `node scripts/data-primitives.js`
+    -   [EVENTS](./notes/EVENTS.md)
+        Go through logging techniques, defining and emitting events.
 
-    Once done, refer to [03-VariablesExplorer.sol](./contracts/03-VariablesExplorer.sol) file.
+    -   [INHERITANCE](./notes/INHERITANCE.md)
+        Go through inheritance & concepts of virtual functions
 
-    You can play with file on [Remix IDE](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.7+commit.e28d00a7.js). Follow the instructions [here](./notes/PRIMITIVES.md)
+    -   [INTERFACES](./notes/INTERFACES.md)
+        Go through abstract contracts and interfaces, their uses and examples
 
-3. CONTRACT CONCEPTS - To Do
+    -   [LIBRARIES](./notes/LIBRARIES.md)
+        Go through templatized code via libraries and their usage with examples
 
-<h2>TOPICS</h2>
-In this section, we cover key solidity concepts through examples.
+---
 
-1. EXAMPLE 1 - Simple Storage - To Do
+## Running example files
 
-2. EXAMPLE 2 - Coin issurance - To Do
+Best to run individual files using [Remix IDE](https://remix.ethereum.org/). Here are steps
 
-3. EXAMPLE 3 - Decentralized Voting - To Do
+-   Create a new project on Remix
+-   Copy the contract (file with .sol extension) into the `contracts` folder of Remix
+-   Compile the contract
+-   Deploy the contract & start playing around
 
-4. EXAMPLE 4 - Auction - To Do
+---
 
-5. EXAMPLE 5 - Ecommerce Purchase - To Do
-
-6. EXAMPLE 6 - Micro Payments - To Do
-
-7. EXAMPLE 7 - Libraries - To Do
+To reach out, please email at 0kage.eth@gmail.com.
