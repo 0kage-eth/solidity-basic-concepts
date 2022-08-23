@@ -38,6 +38,9 @@ contract CreateDemoContract {
      * @dev here I create a fund a Demo contract inside of a function
      */
     function createAndFundDemoContract(uint256 _x, uint256 _fund) {
+        /**
+         * @dev _fund amount is sent to the contract during initialization
+         *  */    
         Demo demo = new Demo{value: _fund}(_x);
     }
 
