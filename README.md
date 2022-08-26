@@ -25,6 +25,9 @@ Objective of this project is to list down core concepts of solidity and experime
     -   [LIBRARIES](./notes/LIBRARIES.md)
         Go through templatized code via libraries and their usage with examples
 
+    -   [ENCODING](./notes/ENCODING.md)
+        Advanced topics of encoding and decoding function signatures and using call functions with bytes data
+
 ---
 
 ## Running example files
